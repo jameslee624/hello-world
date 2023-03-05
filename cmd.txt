@@ -1,0 +1,24 @@
+git --version
+git config --global user.name "w3schools-test"
+git config --global user.email "test@w3schools.com"
+mkdir myproject
+cd myproject
+git init 
+ls
+git status
+git add index.html
+git add --all git add -A
+git commit -m "First release of Hello World!"
+git status -s
+git commit -a -m "Updated index.html with a new line"
+git log
+git [command] -help git [command] --help
+git help --all (shift+G q)
+git branch hello-world-images
+git branch
+git checkout hello-world-images [-b](new branch)
+git merge emergency-fix
+git branch -d emergency-fix
+git remote add origin git remote add origin https://github.com/pedro-salazar/hello-world.git
+
+
